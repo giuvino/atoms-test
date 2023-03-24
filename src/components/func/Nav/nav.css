@@ -1,0 +1,96 @@
+.navWrapper {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    width: 100%;
+}
+
+.loginBar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 40px;
+    height: 48px;
+
+    background: #FFFFFF;
+    font-family: 'Anybody', cursive;
+    border-bottom: solid 1px black;
+}
+
+.contributeBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    font-family: 'Anybody', cursive;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 8px;
+    width: 73px;
+    height: 24px;
+    font-family: 'Anybody', cursive;
+}
+
+.menuContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 41px;
+    height: 96px;
+    border: solid 1px black;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.menuSearch {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 96px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.topicContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    gap: 32px;
+}
+
+.navBar {
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 40px;
+    border: 1px solid black;
+    gap: 10px;
+}
+
+h1 {
+    font-family: 'Anybody', cursive;
+    color: black;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 46px;
+}
+
+.stickyContainer {
+    position: sticky;
+}

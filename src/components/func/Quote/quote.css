@@ -1,0 +1,33 @@
+.quoteBanner {
+    text-align: left;
+    padding: 84px 0px;
+    display: flex;
+    gap: 32px;
+    background-color: darkgoldenrod;
+}
+
+.quoteSource {
+    font-family: 'Anybody';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: white;
+}
+
+.quoteTitle {
+    color: white;
+}
+
+.doubleQuotes {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 200px;
+    font-family: Raleway;
+    top: 62px;
+    left: 54px;
+    position: relative;
+}
+
+.textContainer {
+    padding: 0px 50px
+}
